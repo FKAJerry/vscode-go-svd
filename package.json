@@ -3,7 +3,7 @@
   "displayName": "Golang Short Variable Declarations",
   "description": "A way faster input Golang short variable declarations",
   "version": "0.0.1",
-  "publisher": "jerry.zhang",
+  "publisher": "JerryZ",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -14,6 +14,14 @@
     "Formatters",
     "Snippets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hermaproditus/vscode-go-svd"
+  },
+  "bugs": {
+    "url": "https://github.com/hermaproditus/vscode-go-svd/issues"
+  },
+  
   "activationEvents": [
     "onCommand:extension.svd"
   ],
