@@ -1,0 +1,50 @@
+{
+  "name": "vscode-go-svd",
+  "displayName": "Golang Short Variable Declarations",
+  "description": "A way faster input Golang short variable declarations",
+  "version": "0.0.1",
+  "publisher": "jerry.zhang",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Keymaps",
+    "Formatters",
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:extension.svd"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.svd",
+        "title": "Golang faster input :="
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.svd",
+        "key": "ctrl+=",
+        "mac": "ctrl+="
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint . --ext .ts,.tsx",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.0",
+    "@types/vscode": "^1.32.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.0",
+    "@typescript-eslint/parser": "^4.16.0",
+    "eslint": "^7.21.0",
+    "typescript": "^4.4.3"
+  }
+}
