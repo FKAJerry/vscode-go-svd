@@ -43,6 +43,7 @@
     ]
   },
   "scripts": {
+    "make": "vsce package",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "lint": "eslint . --ext .ts,.tsx",
