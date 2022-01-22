@@ -109,3 +109,7 @@ dist
 out/
 # TernJS port file
 .tern-port
+
+
+# VSCode Extensions
+*.vsix

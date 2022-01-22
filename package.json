@@ -1,7 +1,8 @@
 {
   "name": "vscode-go-svd",
-  "displayName": "Golang Short Variable Declarations",
+  "displayName": ":= Golang Short Variable Declarations",
   "description": "A way faster input Golang short variable declarations",
+  "icon": "images/go-svd.png",
   "version": "0.0.1",
   "publisher": "JerryZ",
   "private": true,
